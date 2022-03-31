@@ -16,7 +16,7 @@ const Nav = () => {
           </h2>
         ))}
       </div>
-      <div className="absolute top-0 right-0 bg-gradient-to-l from-[#06202A] h-10 w-1/6 sm:1/3" />
+      <div className="absolute top-0 right-0 bg-gradient-to-l from-[#06202A] h-10 w-1/12 " />
     </nav>
   );
 };

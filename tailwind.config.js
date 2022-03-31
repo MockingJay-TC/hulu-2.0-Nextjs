@@ -6,8 +6,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screen: {
-        "4xl": "1920",
+      screens: {
+        "4xl": "2000",
       },
     },
   },

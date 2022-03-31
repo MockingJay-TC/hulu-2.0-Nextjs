@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  hostname: "https://links.papareact.com/ua6",
+  images: {
+    domains: ["image.tmdb.org"],
+  },
 };
 
 module.exports = nextConfig;
