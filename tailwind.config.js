@@ -1,11 +1,15 @@
 module.exports = {
-  mode: 'jit',
+  mode: "jit",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screen: {
+        "4xl": "1920",
+      },
+    },
   },
-  plugins: [require('tailwind-scrollbar-hide')],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
